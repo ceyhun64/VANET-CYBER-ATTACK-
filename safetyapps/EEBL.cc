@@ -1,4 +1,4 @@
-
+//acil durum freni etkileşsin mi
 
 #include <veins/base/utils/Coord.h>
 #include <veins/base/utils/Heading.h>

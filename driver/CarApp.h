@@ -1,4 +1,4 @@
-
+//araçlar arası iletişim
 #pragma once
 
 #include <json.h>

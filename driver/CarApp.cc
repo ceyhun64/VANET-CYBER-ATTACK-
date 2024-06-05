@@ -1,4 +1,4 @@
-
+//araçların hareketleri saldırı gerçekleşmeleri kontrolü
 
 #include <CSVWriter.h>
 #include <vasp/connection/Manager.h>

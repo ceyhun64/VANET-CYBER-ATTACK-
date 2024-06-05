@@ -1,4 +1,4 @@
-
+//güvenlik iletişimi
 
 #pragma once
 

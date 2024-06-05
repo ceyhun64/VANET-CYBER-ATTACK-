@@ -1,5 +1,4 @@
-
-
+//ağ bağlantısı yönetimi
 #pragma once
 
 #include "veins/base/connectionManager/ConnectionManager.h"

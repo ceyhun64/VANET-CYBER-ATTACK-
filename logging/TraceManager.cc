@@ -1,4 +1,4 @@
-
+//simülasyon analiz
 
 #include <CSVWriter.h>
 #include <veins/modules/mobility/traci/TraCICommandInterface.h>
