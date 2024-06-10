@@ -9,7 +9,7 @@ class Coord;
 class Heading;
 } // namespace veins
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace safetyapps {
 class EEBL final {
 public:
@@ -21,4 +21,4 @@ public:
         int const myId);
 };
 } // namespace safetyapps
-} // namespace vasp
+} // namespace VANETSIMULATION

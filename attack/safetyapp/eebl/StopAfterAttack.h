@@ -3,9 +3,9 @@
 #pragma once
 
 #include <veins/base/utils/Coord.h>
-#include <vasp/attack/Interface.h>
+#include <VANETSIMULATION/attack/Interface.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace safetyapp {
 namespace eebl {
@@ -21,4 +21,4 @@ private:
 } // namespace eebl
 } // namespace safetyapp
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

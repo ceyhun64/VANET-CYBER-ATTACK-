@@ -3,9 +3,9 @@
 #pragma once
 
 #include <omnetpp/simtime_t.h>
-#include <vasp/attack/Interface.h>
+#include <VANETSIMULATION/attack/Interface.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace channel {
 class DenialOfService final : public Interface {
@@ -18,4 +18,4 @@ private:
 };
 } // namespace channel
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

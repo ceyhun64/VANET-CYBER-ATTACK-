@@ -2,9 +2,9 @@
 
 #pragma once
 
-#include <vasp/attack/heading/Interface.h>
+#include <VANETSIMULATION/attack/heading/Interface.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace heading {
 class Perpendicular final : public Interface {
@@ -13,4 +13,4 @@ public:
 };
 } // namespace heading
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

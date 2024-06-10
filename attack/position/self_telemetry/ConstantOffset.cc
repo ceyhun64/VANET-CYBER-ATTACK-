@@ -1,8 +1,8 @@
 
-#include <vasp/attack/position/self_telemetry/ConstantOffset.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/position/self_telemetry/ConstantOffset.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace position {
 
@@ -19,4 +19,4 @@ void ConstantOffset::attack(veins::BasicSafetyMessage* bsm)
 
 } // namespace position
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

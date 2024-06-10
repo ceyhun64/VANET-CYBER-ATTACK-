@@ -11,7 +11,7 @@ namespace veins {
 class BasicSafetyMessage;
 }
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace logging {
 class TraceManager final : public omnetpp::cSimpleModule {
 public:
@@ -33,4 +33,4 @@ private:
     std::string filepath_{};
 };
 } // namespace logging
-} // namespace vasp
+} // namespace VANETSIMULATION

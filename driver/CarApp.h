@@ -5,12 +5,12 @@
 #include <memory>
 #include <omnetpp/simtime_t.h>
 #include <string>
-#include <vasp/attack/AttackPolicy.h>
+#include <VANETSIMULATION/attack/AttackPolicy.h>
 #include <veins/modules/application/ieee80211p/DemoBaseApplLayer.h>
 
 // forward declarations
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 class Interface;
 } // namespace attack
@@ -22,7 +22,7 @@ class TraceManager;
 namespace connection {
 class Manager;
 } // namespace connection
-} // namespace vasp
+} // namespace VANETSIMULATION
 
 using json = nlohmann::json;
 
@@ -30,7 +30,7 @@ namespace veins {
 class BasicSafetyMessage;
 } // namespace veins
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace driver {
 class CarApp final : public veins::DemoBaseApplLayer {
 public:
@@ -53,9 +53,9 @@ private:
     void setGhostMsgCount(std::string const& key, veins::BasicSafetyMessage* ghostBsm);
 
 private:
-    vasp::logging::TraceManager* traceManager_;
+    VANETSIMULATION::logging::TraceManager* traceManager_;
     veins::BaseWorldUtility* world_;
-    vasp::connection::Manager* connManager_;
+    VANETSIMULATION::connection::Manager* connManager_;
 
     std::string resultDir_;
     std::string simRunID_;
@@ -70,10 +70,10 @@ private:
 
     // attack related
     int attackType_;
-    std::shared_ptr<vasp::attack::Interface> attack_{nullptr};
-    std::shared_ptr<vasp::attack::Interface> ghostAttack_{nullptr};
+    std::shared_ptr<VANETSIMULATION::attack::Interface> attack_{nullptr};
+    std::shared_ptr<VANETSIMULATION::attack::Interface> ghostAttack_{nullptr};
     int nDosMessages_;
-    vasp::attack::AttackPolicy attackPolicy_;
+    VANETSIMULATION::attack::AttackPolicy attackPolicy_;
     double sporadicInsertionRate_;
     double maliciousProbability_;
     bool isMalicious_;
@@ -103,4 +103,4 @@ private:
     bool targetConstPosAttackFlag_{true};
 };
 } // namespace driver
-} // namespace vasp
+} // namespace VANETSIMULATION

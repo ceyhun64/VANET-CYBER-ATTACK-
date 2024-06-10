@@ -1,8 +1,8 @@
 
-#include <vasp/attack/speed/ConstantOffset.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/speed/ConstantOffset.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace speed {
 ConstantOffset::ConstantOffset(double const offset)
@@ -17,4 +17,4 @@ void ConstantOffset::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace speed
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

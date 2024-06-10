@@ -1,10 +1,10 @@
 
 
-#include <vasp/attack/position/ghost_vehicle/SuddenAppearance.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
-#include <vasp/utils/SupportFunctions.h>
+#include <VANETSIMULATION/attack/position/ghost_vehicle/SuddenAppearance.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/utils/SupportFunctions.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace position {
 
@@ -28,4 +28,4 @@ void SuddenAppearance::attack(veins::BasicSafetyMessage* bsm)
 
 } // namespace position
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

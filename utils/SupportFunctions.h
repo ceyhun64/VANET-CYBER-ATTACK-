@@ -5,10 +5,10 @@
 #include <cmath>
 #include <veins/base/utils/Coord.h>
 #include <veins/base/utils/Heading.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
-#include <vasp/utils/SupportFunctions.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/utils/SupportFunctions.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace utils {
 
 inline double toPositiveAngle(double angle)
@@ -100,4 +100,4 @@ inline veins::Coord getPosOffset(veins::BasicSafetyMessage const* rvBsm, double 
 }
 
 } // namespace utils
-} // namespace vasp
+} // namespace VANETSIMULATION

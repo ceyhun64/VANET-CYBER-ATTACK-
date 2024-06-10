@@ -2,9 +2,9 @@
 
 #pragma once
 
-#include <vasp/attack/Interface.h>
+#include <VANETSIMULATION/attack/Interface.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace position {
 class SuddenDisappearance final : public Interface {
@@ -13,4 +13,4 @@ public:
 };
 } // namespace position
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

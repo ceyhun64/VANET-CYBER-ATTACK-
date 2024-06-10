@@ -2,10 +2,10 @@
 
 #include <CSVWriter.h>
 #include <veins/modules/mobility/traci/TraCICommandInterface.h>
-#include <vasp/logging/TraceManager.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/logging/TraceManager.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace logging {
 
 Define_Module(TraceManager);
@@ -130,4 +130,4 @@ void TraceManager::writeHeader() const noexcept
 }
 
 } // namespace logging
-} // namespace vasp
+} // namespace VANETSIMULATION

@@ -2,7 +2,7 @@
 
 #pragma once
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 enum Type {
     _kAttackMinValue = -1,
@@ -110,4 +110,4 @@ enum Type {
     _kAttackMaxValue
 };
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

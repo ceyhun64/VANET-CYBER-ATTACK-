@@ -1,9 +1,9 @@
 
 
-#include <vasp/attack/safetyapp/ima/PositionOffset.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/safetyapp/ima/PositionOffset.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace safetyapp {
 namespace ima {
@@ -24,4 +24,4 @@ void PositionOffset::attack(veins::BasicSafetyMessage* bsm)
 } // namespace ima
 } // namespace safetyapp
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

@@ -3,14 +3,14 @@
 #pragma once
 
 #include <omnetpp/simtime_t.h>
-#include <vasp/attack/Interface.h>
-#include <vasp/attack/heading/Type.h>
+#include <VANETSIMULATION/attack/Interface.h>
+#include <VANETSIMULATION/attack/heading/Type.h>
 
 namespace veins {
 class Heading;
 } // namespace veins
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace heading {
 class Interface : public attack::Interface {
@@ -29,4 +29,4 @@ protected:
 };
 } // namespace heading
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

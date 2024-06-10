@@ -1,9 +1,9 @@
 //güvenlik mesajlarının boyutunu sabit offsetle değiştirir
 
-#include <vasp/attack/dimension/ConstantOffset.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/dimension/ConstantOffset.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace dimension {
 void ConstantOffset::update(double const offset)
@@ -22,4 +22,4 @@ void ConstantOffset::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace dimension
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

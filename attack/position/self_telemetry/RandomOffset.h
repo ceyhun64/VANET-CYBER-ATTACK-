@@ -1,9 +1,9 @@
 
 #pragma once
 
-#include <vasp/attack/Interface.h>
+#include <VANETSIMULATION/attack/Interface.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace position {
 class RandomOffset final : public Interface {
@@ -16,4 +16,4 @@ private:
 };
 } // namespace position
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

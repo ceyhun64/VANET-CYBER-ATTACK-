@@ -3,13 +3,13 @@
 #pragma once
 
 #include <veins/base/utils/Coord.h>
-#include <vasp/attack/Interface.h>
+#include <VANETSIMULATION/attack/Interface.h>
 
 namespace veins {
 class BaseWorldUtility;
 } // namespace veins
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace position {
 
@@ -24,4 +24,4 @@ private:
 
 } // namespace position
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

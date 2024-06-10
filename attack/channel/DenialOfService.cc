@@ -1,9 +1,9 @@
 //hizmet reddi saldırısı
 
-#include <vasp/attack/channel/DenialOfService.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/channel/DenialOfService.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace channel {
 
@@ -24,4 +24,4 @@ void DenialOfService::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace channel
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

@@ -1,9 +1,9 @@
 
 
 #include <veins/base/utils/Heading.h>
-#include <vasp/attack/heading/Interface.h>
+#include <VANETSIMULATION/attack/heading/Interface.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace heading {
 
@@ -21,4 +21,4 @@ veins::Heading const Interface::getNewHeading(veins::Heading const& prevHeading,
 
 } // namespace heading
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

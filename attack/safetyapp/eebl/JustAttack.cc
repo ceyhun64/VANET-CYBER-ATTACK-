@@ -1,10 +1,10 @@
 
 
-#include <vasp/attack/safetyapp/eebl/JustAttack.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
-#include <vasp/utils/SupportFunctions.h>
+#include <VANETSIMULATION/attack/safetyapp/eebl/JustAttack.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/utils/SupportFunctions.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace safetyapp {
 namespace eebl {

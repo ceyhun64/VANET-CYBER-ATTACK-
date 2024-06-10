@@ -1,11 +1,11 @@
 //güvenlik mesajlarının boyutlarını rastgele değiştirir
 
-#include <vasp/attack/dimension/BadRatio.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/dimension/BadRatio.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 #include <omnetpp/csimulation.h>
 #include <omnetpp/distrib.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace dimension {
 void BadRatio::attack(veins::BasicSafetyMessage* bsm)
@@ -22,4 +22,4 @@ void BadRatio::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace dimension
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

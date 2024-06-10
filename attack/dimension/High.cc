@@ -1,9 +1,9 @@
 //güvenlik mesajlarının boyutunu sabit ve yükseğe ayarlar
 
-#include <vasp/attack/dimension/High.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/dimension/High.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace dimension {
 void High::attack(veins::BasicSafetyMessage* bsm)
@@ -17,4 +17,4 @@ void High::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace dimension
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

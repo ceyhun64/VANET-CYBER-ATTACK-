@@ -1,9 +1,9 @@
 //iletişim engellem saldırısı
 
-#include <vasp/attack/acceleration/ConstantOffset.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/acceleration/ConstantOffset.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace acceleration {
 ConstantOffset::ConstantOffset(double const offset)
@@ -18,4 +18,4 @@ void ConstantOffset::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace acceleration
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

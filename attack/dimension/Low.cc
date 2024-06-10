@@ -1,9 +1,9 @@
 
 
-#include <vasp/attack/dimension/Low.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/dimension/Low.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace dimension {
 void Low::attack(veins::BasicSafetyMessage* bsm)
@@ -17,4 +17,4 @@ void Low::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace dimension
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

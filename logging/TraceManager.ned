@@ -1,7 +1,7 @@
 
 // TraceManager - manages trace writing in AMPS
 
-package vasp.logging;
+package VANETSIMULATION.logging;
 
 //
 // manages trace writing in AMPS
@@ -12,5 +12,5 @@ simple TraceManager
         string filepath = default("results/trace.log");
         @display("i=msg/paperclip");
         @labels(node);
-        @class(vasp::logging::TraceManager);
+        @class(VANETSIMULATION::logging::TraceManager);
 }

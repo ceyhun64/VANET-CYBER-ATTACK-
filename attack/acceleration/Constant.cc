@@ -1,9 +1,9 @@
 //güvenlik mesajlarının içeriğini manipüle 
 
-#include <vasp/attack/acceleration/Constant.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/acceleration/Constant.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace acceleration {
 void Constant::attack(veins::BasicSafetyMessage* bsm)
@@ -13,4 +13,4 @@ void Constant::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace acceleration
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

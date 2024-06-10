@@ -7,7 +7,7 @@ class Coord;
 class BasicSafetyMessage;
 } // namespace veins
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace safetyapps {
 class IMA final {
 public:
@@ -18,4 +18,4 @@ public:
         veins::Coord const& junctionPos);
 };
 } // namespace safetyapps
-} // namespace vasp
+} // namespace VANETSIMULATION

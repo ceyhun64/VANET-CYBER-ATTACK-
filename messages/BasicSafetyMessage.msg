@@ -1,7 +1,7 @@
 //araç konumları ve hızları
 
 import veins.base.utils.Coord;
-import vasp.messages.Heading;
+import VANETSIMULATION.messages.Heading;
 import veins.base.utils.SimpleAddress;
 import veins.modules.messages.DemoSafetyMessage;
 

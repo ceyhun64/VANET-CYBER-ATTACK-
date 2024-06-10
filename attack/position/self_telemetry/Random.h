@@ -2,14 +2,14 @@
 
 #pragma once
 
-#include <vasp/attack/Interface.h>
+#include <VANETSIMULATION/attack/Interface.h>
 
 // forward declarations
 namespace veins {
 class BaseWorldUtility;
 } // namespace veins
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace position {
 class Random final : public Interface {
@@ -22,4 +22,4 @@ private:
 };
 } // namespace position
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

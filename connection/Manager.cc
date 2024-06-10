@@ -1,7 +1,7 @@
 //ağ simülasyonu ve yönetim
-#include <vasp/connection/Manager.h>
+#include <VANETSIMULATION/connection/Manager.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace connection {
 
 Define_Module(Manager);
@@ -12,4 +12,4 @@ double Manager::getInterfDist()
 }
 
 } // namespace connection
-} // namespace vasp
+} // namespace VANETSIMULATION

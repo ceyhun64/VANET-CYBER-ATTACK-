@@ -1,10 +1,10 @@
 
 
-#include <vasp/attack/heading/Rotating.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/heading/Rotating.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 #include <veins/base/utils/Heading.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace heading {
 
@@ -16,4 +16,4 @@ void Rotating::attack(veins::BasicSafetyMessage* bsm)
 
 } // namespace heading
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

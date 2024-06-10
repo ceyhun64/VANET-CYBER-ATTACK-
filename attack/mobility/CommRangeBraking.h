@@ -2,10 +2,10 @@
 
 #pragma once
 
-#include <vasp/attack/Interface.h>
+#include <VANETSIMULATION/attack/Interface.h>
 #include <veins/base/utils/Coord.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace mobility {
 class CommRangeBraking final : public Interface {
@@ -19,4 +19,4 @@ private:
 };
 } // namespace mobility
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

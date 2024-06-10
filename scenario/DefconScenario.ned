@@ -2,8 +2,8 @@
 
 import org.car2x.veins.nodes.RSU;
 import org.car2x.veins.nodes.Scenario;
-import vasp.connection.Manager;
-import vasp.logging.TraceManager;
+import VANETSIMULATION.connection.Manager;
+import VANETSIMULATION.logging.TraceManager;
 
 network DefconScenario extends Scenario
 {

@@ -2,10 +2,10 @@
 
 #include <cmath>
 #include <veins/base/utils/Coord.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
-#include <vasp/safetyapps/IMA.h>./run [-u Cmdenv]
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/safetyapps/IMA.h>./run [-u Cmdenv]
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace safetyapps {
 
 bool IMA::warning(
@@ -31,4 +31,4 @@ bool IMA::warning(
 }
 
 } // namespace safetyapps
-} // namespace vasp
+} // namespace VANETSIMULATION

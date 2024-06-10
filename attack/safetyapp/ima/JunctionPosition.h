@@ -2,10 +2,10 @@
 
 #pragma once
 
-#include <vasp/attack/safetyapp/ima/Interface.h>
+#include <VANETSIMULATION/attack/safetyapp/ima/Interface.h>
 #include <veins/base/utils/Coord.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace safetyapp {
 namespace ima {
@@ -20,4 +20,4 @@ private:
 } // namespace ima
 } // namespace safetyapp
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

@@ -2,7 +2,7 @@
 
 #pragma once
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace heading {
 
@@ -14,4 +14,4 @@ enum Type {
 
 } // namespace heading
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

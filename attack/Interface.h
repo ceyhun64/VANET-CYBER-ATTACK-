@@ -7,11 +7,11 @@ namespace veins {
 class BasicSafetyMessage;
 } // namespace veins
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 class Interface {
 public:
     virtual void attack(veins::BasicSafetyMessage* bsm) = 0;
 };
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

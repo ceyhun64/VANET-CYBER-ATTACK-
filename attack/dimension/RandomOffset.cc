@@ -1,11 +1,11 @@
 
 
-#include <vasp/attack/dimension/RandomOffset.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/dimension/RandomOffset.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 #include <omnetpp/csimulation.h>
 #include <omnetpp/distrib.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace dimension {
 void RandomOffset::update(double const offset)
@@ -27,4 +27,4 @@ void RandomOffset::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace dimension
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

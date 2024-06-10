@@ -1,11 +1,11 @@
 
 
-#include <vasp/attack/dimension/Random.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/dimension/Random.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 #include <omnetpp/csimulation.h>
 #include <omnetpp/distrib.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace dimension {
 void Random::attack(veins::BasicSafetyMessage* bsm)
@@ -21,4 +21,4 @@ void Random::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace dimension
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

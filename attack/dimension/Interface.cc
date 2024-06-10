@@ -1,9 +1,9 @@
 //bsm ye boyut değişikliği atar
 
-#include <vasp/attack/dimension/Interface.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/dimension/Interface.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace dimension {
 void Interface::setParams(veins::BasicSafetyMessage* bsm, std::string const& str, double const length, double const width)
@@ -29,4 +29,4 @@ void Interface::setParams(veins::BasicSafetyMessage* bsm, std::string const& str
 }
 } // namespace dimension
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

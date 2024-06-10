@@ -1,11 +1,11 @@
 
 
-#include <vasp/attack/speed/Random.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/speed/Random.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 #include <omnetpp/csimulation.h>
 #include <omnetpp/distrib.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace speed {
 void Random::attack(veins::BasicSafetyMessage* bsm)
@@ -17,4 +17,4 @@ void Random::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace speed
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

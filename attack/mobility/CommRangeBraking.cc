@@ -1,10 +1,10 @@
 
 
-#include <vasp/attack/mobility/CommRangeBraking.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
-#include <vasp/utils/SupportFunctions.h>
+#include <VANETSIMULATION/attack/mobility/CommRangeBraking.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/utils/SupportFunctions.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace mobility {
 
@@ -31,4 +31,4 @@ void CommRangeBraking::attack(veins::BasicSafetyMessage* bsm)
 
 } // namespace mobility
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

@@ -2,11 +2,11 @@
 
 #pragma once
 
-#include <vasp/attack/Interface.h>
-#include <vasp/attack/dimension/Type.h>
+#include <VANETSIMULATION/attack/Interface.h>
+#include <VANETSIMULATION/attack/dimension/Type.h>
 #include <string>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace dimension {
 class Interface : public attack::Interface {
@@ -25,4 +25,4 @@ private:
 };
 } // namespace dimension
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

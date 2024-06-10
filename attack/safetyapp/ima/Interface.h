@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include <vasp/attack/Interface.h>
+#include <VANETSIMULATION/attack/Interface.h>
 
 namespace vasp {
 namespace attack {
@@ -18,4 +18,4 @@ protected:
 } // namespace ima
 } // namespace safetyapp
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

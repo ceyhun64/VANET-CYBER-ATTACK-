@@ -2,10 +2,10 @@
 
 #include <omnetpp/csimulation.h>
 #include <omnetpp/distrib.h>
-#include <vasp/attack/heading/RandomOffset.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/heading/RandomOffset.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace heading {
 
@@ -51,4 +51,4 @@ void RandomOffset::attack(veins::BasicSafetyMessage* bsm)
 
 } // namespace heading
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

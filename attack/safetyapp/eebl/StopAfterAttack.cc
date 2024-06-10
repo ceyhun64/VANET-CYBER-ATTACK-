@@ -1,11 +1,11 @@
 
 
-#include <vasp/attack/safetyapp/eebl/StopAfterAttack.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/safetyapp/eebl/StopAfterAttack.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 #include <veins/base/utils/Coord.h>
-#include <vasp/utils/SupportFunctions.h>
+#include <VANETSIMULATION/utils/SupportFunctions.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace safetyapp {
 namespace eebl {
@@ -39,4 +39,4 @@ void StopAfterAttack::attack(veins::BasicSafetyMessage* bsm)
 } // namespace eebl
 } // namespace safetyapp
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

@@ -1,9 +1,9 @@
 //düşük hızlanma atağı
 
-#include <vasp/attack/acceleration/Low.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/acceleration/Low.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace acceleration {
 void Low::attack(veins::BasicSafetyMessage* bsm)
@@ -15,4 +15,4 @@ void Low::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace acceleration
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

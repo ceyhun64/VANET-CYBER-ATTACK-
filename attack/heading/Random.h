@@ -1,11 +1,11 @@
 
 #pragma once
 
-#include <vasp/attack/heading/Interface.h>
+#include <VANETSIMULATION/attack/heading/Interface.h>
 #include <veins/base/utils/Heading.h>
 #include <omnetpp/simtime_t.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace heading {
 class Random final : public Interface {
@@ -19,4 +19,4 @@ private:
 };
 } // namespace heading
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

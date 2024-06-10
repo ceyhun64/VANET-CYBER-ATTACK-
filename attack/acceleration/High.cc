@@ -1,9 +1,9 @@
 //yüksek hızlanma atağı
 
-#include <vasp/attack/acceleration/High.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/acceleration/High.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace acceleration {
 void High::attack(veins::BasicSafetyMessage* bsm)
@@ -15,4 +15,4 @@ void High::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace acceleration
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

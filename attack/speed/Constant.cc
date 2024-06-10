@@ -1,9 +1,9 @@
 
 
-#include <vasp/attack/speed/Constant.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/attack/speed/Constant.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace attack {
 namespace speed {
 void Constant::attack(veins::BasicSafetyMessage* bsm)
@@ -13,4 +13,4 @@ void Constant::attack(veins::BasicSafetyMessage* bsm)
 }
 } // namespace speed
 } // namespace attack
-} // namespace vasp
+} // namespace VANETSIMULATION

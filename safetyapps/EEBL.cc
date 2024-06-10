@@ -2,11 +2,11 @@
 
 #include <veins/base/utils/Coord.h>
 #include <veins/base/utils/Heading.h>
-#include <vasp/messages/BasicSafetyMessage_m.h>
-#include <vasp/safetyapps/EEBL.h>
-#include <vasp/utils/SupportFunctions.h>
+#include <VANETSIMULATION/messages/BasicSafetyMessage_m.h>
+#include <VANETSIMULATION/safetyapps/EEBL.h>
+#include <VANETSIMULATION/utils/SupportFunctions.h>
 
-namespace vasp {
+namespace VANETSIMULATION {
 namespace safetyapps {
 
 // EEBL application implemented as defined in SAE J2945/1 standard
@@ -37,4 +37,4 @@ bool EEBL::warning(
 }
 
 } // namespace safetyapps
-} // namespace vasp
+} // namespace VANETSIMULATION
